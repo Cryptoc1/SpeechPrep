@@ -5,7 +5,7 @@ Some say that the best way the practice and remember speeches or presentations i
 SpeechPrep was built off of [karaoke](https://github.com/cryptoc1/karaoke), with the added support of the `NSSpeechSynthesizer` class that talks back
 to the user.
 
-The `Parser` class is used to format the user inputted text by seperating that text at the end of each sentence. The `Parser` builds an `Array<String>` of sentences.
+The `Parser` class is used to format the user inputted text by seperating that text at the end of each sentence. The `Parser` builds an `Array<String>` of sentences. Note however, that the parser isn't very sophisticated, so it only really accepts plain-text. Meaning no bullet-points, or exlamation point detection.
 
 ## Screens
 ![main](screens/main.png)
