@@ -22,12 +22,13 @@ import Cocoa
 import AppKit
 
 // Setting to true enables logging in a some functions and what-not
-var DEVMODE: Bool = false
+var DEVMODE : Bool = false
 
-class ViewController: NSViewController, {
+class ViewController: NSViewController, NSSpeechRecognizerDelegate, NSSpeechSynthesizerDelegate {
 
 ...
 
+
 ```
 
-Icon by (Icons8)[http://icons8.com]
+Icon by [Icons8](http://icons8.com)
