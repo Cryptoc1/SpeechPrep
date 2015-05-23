@@ -12,6 +12,8 @@
 		7E88D1111B0F8A3400C44FFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E88D1101B0F8A3400C44FFA /* Images.xcassets */; };
 		7E88D1141B0F8A3400C44FFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E88D1121B0F8A3400C44FFA /* Main.storyboard */; };
 		7E88D1201B0F8A3400C44FFA /* SpeechPrepTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E88D11F1B0F8A3400C44FFA /* SpeechPrepTests.swift */; };
+		7E88D12A1B0F8AEB00C44FFA /* SpeechPrep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E88D1291B0F8AEB00C44FFA /* SpeechPrep.swift */; };
+		7E88D12E1B0F8E1600C44FFA /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E88D12D1B0F8E1600C44FFA /* Parser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,10 @@
 		7E88D1191B0F8A3400C44FFA /* SpeechPrepTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeechPrepTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E88D11E1B0F8A3400C44FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E88D11F1B0F8A3400C44FFA /* SpeechPrepTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechPrepTests.swift; sourceTree = "<group>"; };
+		7E88D1291B0F8AEB00C44FFA /* SpeechPrep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechPrep.swift; sourceTree = "<group>"; };
+		7E88D12B1B0F8B3F00C44FFA /* SpeechPrepDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechPrepDelegate.swift; sourceTree = "<group>"; };
+		7E88D12D1B0F8E1600C44FFA /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		7ED92BAF1B10271400C17B5D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,7 @@
 		7E88D0FE1B0F8A3400C44FFA = {
 			isa = PBXGroup;
 			children = (
+				7ED92BAF1B10271400C17B5D /* README.md */,
 				7E88D1091B0F8A3400C44FFA /* SpeechPrep */,
 				7E88D11C1B0F8A3400C44FFA /* SpeechPrepTests */,
 				7E88D1081B0F8A3400C44FFA /* Products */,
@@ -77,6 +84,9 @@
 			children = (
 				7E88D10C1B0F8A3400C44FFA /* AppDelegate.swift */,
 				7E88D10E1B0F8A3400C44FFA /* ViewController.swift */,
+				7E88D12B1B0F8B3F00C44FFA /* SpeechPrepDelegate.swift */,
+				7E88D1291B0F8AEB00C44FFA /* SpeechPrep.swift */,
+				7E88D12D1B0F8E1600C44FFA /* Parser.swift */,
 				7E88D1101B0F8A3400C44FFA /* Images.xcassets */,
 				7E88D1121B0F8A3400C44FFA /* Main.storyboard */,
 				7E88D10A1B0F8A3400C44FFA /* Supporting Files */,
@@ -209,7 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E88D10F1B0F8A3400C44FFA /* ViewController.swift in Sources */,
+				7E88D12E1B0F8E1600C44FFA /* Parser.swift in Sources */,
 				7E88D10D1B0F8A3400C44FFA /* AppDelegate.swift in Sources */,
+				7E88D12A1B0F8AEB00C44FFA /* SpeechPrep.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +412,7 @@
 				7E88D1251B0F8A3400C44FFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E88D1261B0F8A3400C44FFA /* Build configuration list for PBXNativeTarget "SpeechPrepTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +421,7 @@
 				7E88D1281B0F8A3400C44FFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
