@@ -28,7 +28,6 @@ class ViewController: NSViewController, NSSpeechRecognizerDelegate, NSSpeechSynt
 
 ...
 
-
 ```
 
 Icon by [Icons8](http://icons8.com)
